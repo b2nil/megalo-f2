@@ -1,0 +1,50 @@
+{
+  "name": "@b2nil/megalo-f2",
+  "version": "0.1.0",
+  "description": "A f2 chart component for megalo projects",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev:alipay": "webpack --config ./build/webpack.config.alipay.js -w",
+    "dev:swan": "webpack --config ./build/webpack.config.swan.js -w",
+    "dev:wechat": "webpack --config ./build/webpack.config.wechat.js -w"
+  },
+  "keywords": [
+    "f2",
+    "megalo",
+    "charts"
+  ],
+  "author": "Ken Ho <chien.ho@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@b2nil/megalo-entry": "^0.2.1",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-function-bind": "^7.2.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.1",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/plugin-transform-strict-mode": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-stage-0": "^7.0.0",
+    "@babel/runtime": "^7.3.1",
+    "@megalo/px2rpx-loader": "^0.1.1",
+    "@megalo/target": "^0.6.2",
+    "@megalo/template-compiler": "^0.7.3",
+    "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "vue-loader": "15.4.0",
+    "vue-style-loader": "^4.1.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "@megalo/api": "^0.2.2",
+    "megalo": "^0.7.3",
+    "my-f2": "^1.0.1"
+  }
+}
